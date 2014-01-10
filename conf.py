@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-AUTHOR = u'Marcel Hellkamp'
-SITENAME = u"bottlepy-dev"
+AUTHOR = u'lrobot'
+SITENAME = u"Lrobot blog"
 SITESUBTITLE = u"Techtalk and stuff."
-SITEURL = 'http://blog.bottlepy.org'
-TIMEZONE = "Europe/Berlin"
-THEME = 'bottle-theme'
+SITEURL = 'http://lrobot.me'
+TIMEZONE = "Asia/Chongqing"
+#THEME = 'bottle-theme'
 FEED_RSS = 'feeds/all.rss.xml'
 CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
 PDF_GENERATOR = False
@@ -23,22 +23,22 @@ PAGE_SAVE_AS = 'pages/{slug}.html'
 PAGE_LANG_URL = 'pages/{slug}-{lang}.html'
 PAGE_LANG_SAVE_AS = 'pages/{slug}-{lang}.html'
 
-GITHUB_URL = 'http://github.com/defnull/bottle'
+#GITHUB_URL = 'http://github.com/lrobot/lrobot.me'
 #DISQUS_SITENAME = "bottlepy"
 #TWITTER_USERNAME = "bottlepy"
 
 MENUITEMS = (('Home','/'),)
 
-LINKS = (('Docs','http://bottlepy.org/'),)
+LINKS = (('HOME','http://lrobot.me/'),)
 
-SOCIAL = (('twitter', 'http://twitter.com/bottlepy'),
-          ('github', 'http://github.com/defnull'),)
+SOCIAL = (('g+', 'https://plus.google.com/+QQLUO'),
+          ('email', 'mailto:lrobot.qq@gmail.com'),)
 
 # global metadata to all the contents
 #DEFAULT_METADATA = (('yeah', 'it is'),)
 
 # static paths will be copied under the same name
-STATIC_PATHS = ["static", ]
+#STATIC_PATHS = ["static", ]
 
 # A list of files to copy from the source to the destination
 FILES_TO_COPY = (('static/robots.txt', 'robots.txt'),

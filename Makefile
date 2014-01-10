@@ -2,6 +2,7 @@
 
 build: venv
 	. venv/bin/activate; pelican -vs conf.py src/
+	echo "change /etc/httpd/conf/httpd.conf's DocumentRoot to this output for blog service"
 
 draft: venv
 	. venv/bin/activate; pelican -vs conf.py -o output/draft/ src/
